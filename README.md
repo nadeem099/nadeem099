@@ -1,10 +1,10 @@
 <h1 align="center">Hi 👋, I'm Nadeem Choudhary</h1>
-<h3 align="center">I love to read && explore && talk about tech.</h3>
+<h3 align="center">I love to read <code>&&</code> explore <code>&&</code> talk about tech.</h3>
 <img align="right" src="https://i.pinimg.com/originals/81/17/8b/81178b47a8598f0c81c4799f2cdd4057.gif" alt="coding" width="400" />
 
-- 🌱 I’m currently learning **Nextjs, Tailwind css, TypeScript**
+- 🌱 I’m currently learning **<code>Nextjs</code>, <code>Tailwind css</code>, <code>TypeScript</code>**
 
-- 💬 Ask me about **React, Javascript, HTML, CSS, Nodejs**
+- 💬 Ask me about **<code>React</code>, <code>Javascript</code>, <code>HTML</code>, <code>CSS</code>, <code>Nodejs</code>**
 
 - 📫 How to reach me **ah.nadeem.choudhary@gmail.com**
 
