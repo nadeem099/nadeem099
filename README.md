@@ -1,46 +1,52 @@
 <!--
   ─────────────────────────────────────────────────────────────────
-  SETUP
-  1. Repo name must EXACTLY equal your GitHub username. Public.
-  2. Commit this as README.md at the repo root.
-  3. Commit the assets/ folder alongside it:
-        <repo>/README.md
-        <repo>/assets/header.svg
-        <repo>/assets/focus.svg
-        <repo>/assets/stack.svg
-        <repo>/assets/divider.svg
-  4. Fill in the Connect links at the bottom.
+  Nadeem — GitHub profile README
+  Repo: github.com/nadeem099/nadeem099   (must be public)
 
-  Every image is a relative path into your own repo. No shields.io,
-  no vercel.app, no third-party CDN — nothing to rate-limit, expire,
-  or get blocked by a corporate proxy. Edit the SVGs directly to
-  change any wording; they are plain text files.
+  Files:
+    README.md
+    assets/header.svg
+    assets/focus.svg
+    assets/stack.svg
+    assets/divider.svg
+
+  Image URLs below are ABSOLUTE, pointing at raw.githubusercontent.
+  That makes them resolve in the web-editor Preview tab as well as
+  on the live page. If your default branch is "master" rather than
+  "main", find-and-replace /main/ with /master/ throughout.
+
+  All animation is self-hosted in your own repo — no shields.io,
+  no vercel.app, no third-party CDN. Every animation is finite, so
+  the page settles instead of spinning forever.
+
+  To reword anything, edit the <text> elements inside the SVGs.
+  Escape any literal & as &amp; or the file becomes invalid XML.
   ─────────────────────────────────────────────────────────────────
 -->
 
-<img src="assets/header.svg" alt="Nadeem — Senior Software Engineer" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/header.svg" alt="Nadeem — Senior Software Engineer" width="100%" />
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
 
 ```ts
 const nadeem: Engineer = {
-  role:     "Senior Software Engineer",
-  writes:   ["TypeScript", "Go", "Python"],
-  ships:    ["retrieval pipelines", "streaming LLM APIs", "React at scale"],
+  role:      "Senior Software Engineer",
+  writes:    ["TypeScript", "Go", "Python"],
+  ships:     ["retrieval pipelines", "streaming LLM APIs", "React at scale"],
   optimises: ["p99 latency", "recall@k", "time-to-first-token", "blast radius"],
-  belief:   "boring infrastructure, interesting products",
+  belief:    "boring infrastructure, interesting products",
 };
 ```
 
-<img src="assets/focus.svg" alt="What I ship / How I operate" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/focus.svg" alt="What I ship / How I operate" width="100%" />
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
 
 ## Stack
 
-<img src="assets/stack.svg" alt="Technology stack" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/stack.svg" alt="Technology stack" width="100%" />
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
 
 ## Selected work
 
@@ -77,7 +83,7 @@ const nadeem: Engineer = {
 
 </details>
 
-<img src="assets/divider.svg" alt="" width="100%" />
+<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
 
 <p align="center">
   <a href="https://linkedin.com/in/YOUR-LINKEDIN"><b>LinkedIn</b></a>
