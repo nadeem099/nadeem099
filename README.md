@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://in.linkedin.com/in/nadeemchoudhary">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:ah.nadeem.choudhary@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="mailto:ah.nadeem.choudhary@gmail.com">Email</a>
 </p>
 
 ```ts
