@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 292" width="880" height="292" role="img" aria-label="What I ship and how I operate">
+<style>
+  @keyframes rise { from { opacity:0; transform:translateY(9px); } to { opacity:1; transform:translateY(0); } }
+  @keyframes fade { from { opacity:0; } to { opacity:1; } }
+</style>
+
+<g style="animation:fade .6s ease 0.00s both">
+  <rect x="1" y="1" width="426" height="290" rx="14" fill="#11161D" stroke="#232B36"/>
+  <rect x="1" y="1" width="426" height="3" rx="1.5" fill="#38BDF8" opacity=".9"/>
+  <circle cx="34" cy="46" r="13" fill="#38BDF8" opacity=".13"/>
+  <text x="34" y="51" text-anchor="middle" style="font:600 13px 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#38BDF8">⚡</text>
+  <text x="56" y="51" style="font:700 15px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#E6EDF3">What I ship</text>
+  <line x1="20" y1="68" x2="408" y2="68" stroke="#232B36"/>
+  
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.00s both">
+  <rect x="20" y="82" width="4" height="30" rx="2" fill="#38BDF8" opacity=".85"/>
+  <text x="38" y="95" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Retrieval systems that answer from your</text>
+  <text x="38" y="111" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">own data and cite the passage they used</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.13s both">
+  <rect x="20" y="128" width="4" height="30" rx="2" fill="#38BDF8" opacity=".85"/>
+  <text x="38" y="141" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Streaming LLM endpoints — tool calls,</text>
+  <text x="38" y="157" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">backpressure, retries, hard cost ceilings</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.26s both">
+  <rect x="20" y="174" width="4" height="30" rx="2" fill="#38BDF8" opacity=".85"/>
+  <text x="38" y="187" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Go services that hold p99 under 50ms</text>
+  <text x="38" y="203" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">while the traffic graph keeps climbing</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.39s both">
+  <rect x="20" y="220" width="4" height="30" rx="2" fill="#38BDF8" opacity=".85"/>
+  <text x="38" y="233" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">React surfaces that stay smooth after</text>
+  <text x="38" y="249" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">the dataset stops being a demo fixture</text>
+</g>
+</g>
+<g style="animation:fade .6s ease 0.10s both">
+  <rect x="453" y="1" width="426" height="290" rx="14" fill="#11161D" stroke="#232B36"/>
+  <rect x="453" y="1" width="426" height="3" rx="1.5" fill="#A78BFA" opacity=".9"/>
+  <circle cx="486" cy="46" r="13" fill="#A78BFA" opacity=".13"/>
+  <text x="486" y="51" text-anchor="middle" style="font:600 13px 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#A78BFA">◆</text>
+  <text x="508" y="51" style="font:700 15px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#E6EDF3">How I operate</text>
+  <line x1="472" y1="68" x2="860" y2="68" stroke="#232B36"/>
+  
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.12s both">
+  <rect x="472" y="82" width="4" height="30" rx="2" fill="#A78BFA" opacity=".85"/>
+  <text x="490" y="95" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Read the code before rewriting it —</text>
+  <text x="490" y="111" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">most bugs are somebody's old assumption</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.25s both">
+  <rect x="472" y="128" width="4" height="30" rx="2" fill="#A78BFA" opacity=".85"/>
+  <text x="490" y="141" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Contract first: schema, error shape,</text>
+  <text x="490" y="157" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">version policy. Implementation after.</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.38s both">
+  <rect x="472" y="174" width="4" height="30" rx="2" fill="#A78BFA" opacity=".85"/>
+  <text x="490" y="187" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Instrument before optimising. Guessing</text>
+  <text x="490" y="203" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">at the hot path burns weeks, reliably.</text>
+</g>
+<g style="animation:rise .7s cubic-bezier(.2,.7,.3,1) 0.51s both">
+  <rect x="472" y="220" width="4" height="30" rx="2" fill="#A78BFA" opacity=".85"/>
+  <text x="490" y="233" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#C9D1D9">Ship behind a flag, roll forward, keep</text>
+  <text x="490" y="249" style="font:500 12.5px 'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#7D8590">every decision cheap to reverse.</text>
+</g>
+</g>
+</svg>
