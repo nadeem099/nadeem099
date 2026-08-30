@@ -1,32 +1,16 @@
-<!--
-  ─────────────────────────────────────────────────────────────────
-  Nadeem — GitHub profile README
-  Repo: github.com/nadeem099/nadeem099   (must be public)
+<h1 align="center">Nadeem</h1>
 
-  Files:
-    README.md
-    assets/header.svg
-    assets/focus.svg
-    assets/stack.svg
-    assets/divider.svg
+<p align="center">
+  <b>Senior Software Engineer</b><br>
+  <sub>Full Stack &nbsp;·&nbsp; GenAI &amp; RAG &nbsp;·&nbsp; Distributed Systems</sub>
+</p>
 
-  Image URLs below are ABSOLUTE, pointing at raw.githubusercontent.
-  That makes them resolve in the web-editor Preview tab as well as
-  on the live page. If your default branch is "master" rather than
-  "main", find-and-replace /main/ with /master/ throughout.
-
-  All animation is self-hosted in your own repo — no shields.io,
-  no vercel.app, no third-party CDN. Every animation is finite, so
-  the page settles instead of spinning forever.
-
-  To reword anything, edit the <text> elements inside the SVGs.
-  Escape any literal & as &amp; or the file becomes invalid XML.
-  ─────────────────────────────────────────────────────────────────
--->
-
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/header.svg" alt="Nadeem — Senior Software Engineer" width="100%" />
-
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:YOUR@EMAIL.COM">Email</a> &nbsp;·&nbsp;
+  <a href="https://x.com/YOUR-HANDLE">X</a> &nbsp;·&nbsp;
+  <a href="https://YOUR-SITE.dev">Portfolio</a>
+</p>
 
 ```ts
 const nadeem: Engineer = {
@@ -38,15 +22,76 @@ const nadeem: Engineer = {
 };
 ```
 
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/focus.svg" alt="What I ship / How I operate" width="100%" />
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
+### ⚡ What I ship
+
+**Retrieval systems that cite their sources**<br>
+<sub>Answers grounded in your own data, with the passage attached.</sub>
+
+**Streaming LLM endpoints**<br>
+<sub>Tool calls, backpressure, retries, hard cost ceilings.</sub>
+
+**Go services that hold p99 under 50ms**<br>
+<sub>While the traffic graph keeps climbing.</sub>
+
+**React surfaces that stay smooth**<br>
+<sub>After the dataset stops being a demo fixture.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### ◆ How I operate
+
+**Read the code before rewriting it**<br>
+<sub>Most bugs are somebody's old assumption.</sub>
+
+**Contract first**<br>
+<sub>Schema, error shape, version policy. Implementation after.</sub>
+
+**Instrument before optimising**<br>
+<sub>Guessing at the hot path burns weeks, reliably.</sub>
+
+**Ship behind a flag, roll forward**<br>
+<sub>Keep every decision cheap to reverse.</sub>
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Stack
 
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/stack.svg" alt="Technology stack" width="100%" />
+<table>
+<tr><td><b>Languages</b></td><td>
+<kbd> TypeScript </kbd> <kbd> Go </kbd> <kbd> JavaScript </kbd> <kbd> Python </kbd> <kbd> SQL </kbd> <kbd> Bash </kbd>
+</td></tr>
 
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
+<tr><td><b>Frontend</b></td><td>
+<kbd> React </kbd> <kbd> Next.js </kbd> <kbd> Redux Toolkit </kbd> <kbd> TanStack Query </kbd> <kbd> Tailwind </kbd> <kbd> Vite </kbd> <kbd> Playwright </kbd>
+</td></tr>
+
+<tr><td><b>Backend</b></td><td>
+<kbd> Node.js </kbd> <kbd> NestJS </kbd> <kbd> Express </kbd> <kbd> Fiber </kbd> <kbd> gRPC </kbd> <kbd> GraphQL </kbd> <kbd> WebSockets </kbd>
+</td></tr>
+
+<tr><td><b>Storage &amp; streams</b></td><td>
+<kbd> PostgreSQL </kbd> <kbd> pgvector </kbd> <kbd> Redis </kbd> <kbd> MongoDB </kbd> <kbd> Kafka </kbd> <kbd> ClickHouse </kbd> <kbd> OpenSearch </kbd> <kbd> S3 </kbd>
+</td></tr>
+
+<tr><td><b>GenAI &amp; RAG</b></td><td>
+<kbd> LangChain </kbd> <kbd> LlamaIndex </kbd> <kbd> OpenAI </kbd> <kbd> Anthropic </kbd> <kbd> Ollama </kbd> <kbd> Qdrant </kbd> <kbd> Hybrid search </kbd> <kbd> Rerankers </kbd> <kbd> Ragas </kbd>
+</td></tr>
+
+<tr><td><b>Platform</b></td><td>
+<kbd> AWS </kbd> <kbd> Docker </kbd> <kbd> Kubernetes </kbd> <kbd> Terraform </kbd> <kbd> GitHub Actions </kbd> <kbd> OpenTelemetry </kbd> <kbd> Grafana </kbd>
+</td></tr>
+</table>
+
+---
 
 ## Selected work
 
@@ -60,7 +105,7 @@ const nadeem: Engineer = {
 <details>
 <summary><b>How I think about RAG</b></summary>
 
-<br/>
+<br>
 
 - **Most "hallucination" bugs are recall bugs.** If the passage never made it into context, no amount of prompt engineering saves the answer. Fix the index first.
 - **Hybrid retrieval by default.** Lexical catches exact identifiers and rare tokens; dense catches paraphrase. Run both, fuse, then cross-encoder rerank the top ~50.
@@ -73,7 +118,7 @@ const nadeem: Engineer = {
 <details>
 <summary><b>Engineering defaults I don't negotiate</b></summary>
 
-<br/>
+<br>
 
 - Types at every boundary — TS strict, Go generics, schema validation on the wire
 - Structured logs with a request ID that survives every hop
@@ -83,14 +128,8 @@ const nadeem: Engineer = {
 
 </details>
 
-<img src="https://raw.githubusercontent.com/nadeem099/nadeem099/main/assets/divider.svg" alt="" width="100%" />
+---
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN"><b>LinkedIn</b></a>
-  &nbsp;·&nbsp;
-  <a href="mailto:YOUR@EMAIL.COM"><b>Email</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://x.com/YOUR-HANDLE"><b>X</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://YOUR-SITE.dev"><b>Portfolio</b></a>
+  <sub>Open to interesting problems in retrieval, platform, and developer tooling.</sub>
 </p>
