@@ -6,10 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:YOUR@EMAIL.COM">Email</a> &nbsp;·&nbsp;
-  <a href="https://x.com/YOUR-HANDLE">X</a> &nbsp;·&nbsp;
-  <a href="https://YOUR-SITE.dev">Portfolio</a>
+  <a href="https://in.linkedin.com/in/nadeemchoudhary">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:ah.nadeem.choudhary@gmail.com">Email</a> &nbsp;·&nbsp;
 </p>
 
 ```ts
