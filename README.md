@@ -18,7 +18,7 @@
   ─────────────────────────────────────────────────────────────────
 -->
 
-<img src="/assets/header.svg" alt="Nadeem — Senior Software Engineer" width="100%" />
+<img src="assets/header.svg" alt="Nadeem — Senior Software Engineer" width="100%" />
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
